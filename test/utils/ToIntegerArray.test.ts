@@ -40,7 +40,6 @@ test('Given 1,2,3 When delimiter is ,, Then the result should equal [1,2,3]', ()
   expect(ToIntegerArray('1,2,3', ',,')).toEqual([1, 2, 3]);
 });
 
-//
-test('Given 1|2|3,4,5 When delimiter is | Then the result should equal [1,2,3,4,5]', () => {
+test('Given 1|2|3,4,5 When delimiter is |,, Then the result should equal [1,2,3,4,5]', () => {
   expect(ToIntegerArray('1|2|3,4,5', '|,,')).toEqual([1, 2, 3, 4, 5]);
 });
