@@ -1,0 +1,8 @@
+node_modules
+dist
+**/*.jest.js
+setupTests.ts
+test-utils.tsx
+vitest.config.ts
+src/mocks/**
+public/mockServiceWorker.js
