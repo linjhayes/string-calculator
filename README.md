@@ -24,7 +24,7 @@ For example:
 yarn install
 ```
 
-**2. Create a .env file in the root folder. It can be empty. If you want to override any default values you can do that here. Look in AppConfig.ts for values you can override.**
+**2. If you want to override any values create a .env file in the root folder.  Look in Config.ts for values you can override.**
 
 **3. Run Tests**
 
