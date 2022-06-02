@@ -42,7 +42,7 @@ npx jest -i ToIntegerArray --verbose
 
 In the root folder this should create a folder named coverage with a json file named coverage-summary.json
 
-````
+```
 yarn run test:coverage
 ```
 
